@@ -3,7 +3,7 @@
 import DataDashboard from 'src/sections/dataDashboard/view';
 
 export const metadata = {
-  title: 'Dashboard: DataDashboard',
+  title: 'Menue: DataDashboard',
 };
 
 export default function Page() {
