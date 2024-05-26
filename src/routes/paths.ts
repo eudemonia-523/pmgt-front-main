@@ -2,7 +2,7 @@
 
 const ROOTS = {
   AUTH: '/auth',
-  DASHBOARD: '/dashboard',
+  MENUE: '/menue',
 };
 
 // ----------------------------------------------------------------------
@@ -16,15 +16,14 @@ export const paths = {
       register: `${ROOTS.AUTH}/jwt/register`,
     },
   },
-  // DASHBOARD
-  dashboard: {
-    root: ROOTS.DASHBOARD,
-    dataDashboard: `${ROOTS.DASHBOARD}/dataDashboard`,
-    customSetting: `${ROOTS.DASHBOARD}/customSetting`,
+  // menu
+  menue: {
+    dataDashboard: `${ROOTS.MENUE}/dataDashboard`,
+    customSetting: `${ROOTS.MENUE}/customSetting`,
     management: {
-      root: `${ROOTS.DASHBOARD}/management`,
-      incomeOutcome: `${ROOTS.DASHBOARD}/management/incomeOutcome`,
-      assetManagement: `${ROOTS.DASHBOARD}/management/assetManagement`,
+      root: `${ROOTS.MENUE}/management`,
+      incomeOutcome: `${ROOTS.MENUE}/management/incomeOutcome`,
+      assetManagement: `${ROOTS.MENUE}/management/assetManagement`,
     },
   },
 };

@@ -3,7 +3,7 @@ import CustomSetting from 'src/sections/customSetting/view';
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Dashboard: CustomSetting',
+  title: 'Menu: CustomSetting',
 };
 
 export default function Page() {

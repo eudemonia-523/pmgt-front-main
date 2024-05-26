@@ -51,10 +51,10 @@ export function useNavData() {
       {
         subheader: 'general',
         items: [
-          { title: 'dataDashboard', path: paths.dashboard.dataDashboard, icon: ICONS.ecommerce },
+          { title: 'dataDashboard', path: paths.menue.dataDashboard, icon: ICONS.ecommerce },
           {
             title: 'customSetting',
-            path: paths.dashboard.customSetting,
+            path: paths.menue.customSetting,
             icon: ICONS.analytics,
           },
         ],
@@ -67,11 +67,11 @@ export function useNavData() {
         items: [
           {
             title: 'Finance',
-            path: paths.dashboard.management.root,
+            path: paths.menue.management.root,
             icon: ICONS.user,
             children: [
-              { title: 'income & outcome', path: paths.dashboard.management.incomeOutcome },
-              { title: 'asset management', path: paths.dashboard.management.assetManagement },
+              { title: 'income & outcome', path: paths.menue.management.incomeOutcome },
+              { title: 'asset management', path: paths.menue.management.assetManagement },
             ],
           },
         ],
