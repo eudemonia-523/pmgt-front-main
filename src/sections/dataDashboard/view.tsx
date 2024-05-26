@@ -9,12 +9,12 @@ import { useSettingsContext } from 'src/components/settings';
 
 // ----------------------------------------------------------------------
 
-export default function SixView() {
+export default function DataDashboard() {
   const settings = useSettingsContext();
 
   return (
     <Container maxWidth={settings.themeStretch ? false : 'xl'}>
-      <Typography variant="h4"> Page Six </Typography>
+      <Typography variant="h4"> Data Dashboard </Typography>
 
       <Box
         sx={{

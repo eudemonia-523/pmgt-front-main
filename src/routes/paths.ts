@@ -19,13 +19,12 @@ export const paths = {
   // DASHBOARD
   dashboard: {
     root: ROOTS.DASHBOARD,
-    one: `${ROOTS.DASHBOARD}/one`,
-    two: `${ROOTS.DASHBOARD}/two`,
-    three: `${ROOTS.DASHBOARD}/three`,
-    group: {
-      root: `${ROOTS.DASHBOARD}/group`,
-      five: `${ROOTS.DASHBOARD}/group/five`,
-      six: `${ROOTS.DASHBOARD}/group/six`,
+    dataDashboard: `${ROOTS.DASHBOARD}/dataDashboard`,
+    customSetting: `${ROOTS.DASHBOARD}/customSetting`,
+    management: {
+      root: `${ROOTS.DASHBOARD}/management`,
+      incomeOutcome: `${ROOTS.DASHBOARD}/management/incomeOutcome`,
+      assetManagement: `${ROOTS.DASHBOARD}/management/assetManagement`,
     },
   },
 };

@@ -1,11 +1,11 @@
-import SixView from 'src/sections/six/view';
+import IncomeOutcome from 'src/sections/incomeOutcome/view';
 
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Dashboard: Six',
+  title: 'Dashboard: IncomeOutcome',
 };
 
 export default function Page() {
-  return <SixView />;
+  return <IncomeOutcome />;
 }

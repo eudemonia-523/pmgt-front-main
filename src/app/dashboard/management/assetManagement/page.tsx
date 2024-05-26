@@ -1,11 +1,11 @@
-import ThreeView from 'src/sections/three/view';
+import AssetManagement from 'src/sections/assetManagement/view';
 
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Dashboard: Three',
+  title: 'Dashboard: Six',
 };
 
 export default function Page() {
-  return <ThreeView />;
+  return <AssetManagement />;
 }

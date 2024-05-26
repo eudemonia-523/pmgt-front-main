@@ -136,8 +136,10 @@ export function AuthProvider({ children }: Props) {
 
     const res = await axios.post(endpoints.auth.login, data);
 
-    const { accessToken, user } = res.data;
+    const resultData = res.data;
+    const user = resultData.data;
 
+    const accessToken = resultData.prop;
     setSession(accessToken);
 
     dispatch({
@@ -163,7 +165,10 @@ export function AuthProvider({ children }: Props) {
 
       const res = await axios.post(endpoints.auth.register, data);
 
-      const { accessToken, user } = res.data;
+      const resultData = res.data;
+      const user = resultData.data;
+
+      const accessToken = resultData.prop;
 
       sessionStorage.setItem(STORAGE_KEY, accessToken);
 

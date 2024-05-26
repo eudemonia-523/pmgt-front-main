@@ -1,11 +1,11 @@
-import OneView from 'src/sections/one/view';
+import CustomSetting from 'src/sections/customSetting/view';
 
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Dashboard: One',
+  title: 'Dashboard: CustomSetting',
 };
 
 export default function Page() {
-  return <OneView />;
+  return <CustomSetting />;
 }
